@@ -1,0 +1,158 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+main{
+	width: 80%;
+	max-width: 1000px;
+	padding: 10px;
+	margin: auto;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+@font-face {
+	font-family: Balsamiq;
+	src: url(../fonts/BalsamiqSans-Regular.ttf);
+}
+p{
+	font-family:Balsamiq;
+	src: url(../fonts/BalsamiqSans-Regular.ttf);
+	font-size: 16pt;
+}
+
+body{
+	background: greenyellow;
+	font-family: Balsamiq;
+	background-image: url(../images//i19.jpeg);
+	text-align: center;
+}
+
+
+
+h1{
+	text-align: center;
+	padding: 60px;
+	font-size: 70px;
+	border: 30px solid greenyellow;
+    margin:50px 70px 50px 70px;
+
+}
+.photo{
+	max-height: 270px;
+	max-width: 700;
+	width: calc(33% - 10px);
+	height: calc(95vw / 2 / 16 * 9);
+	background-position: center;
+	-webrit-background-size: cover;
+	background-size: cover;
+	margin: 5px;
+	background-color: paleturquoise;
+
+    
+}
+
+.photo25 {
+	
+	background-image: url(../images/i25.jpeg);
+}
+.photo20 {
+	background-image: url(../images/i20.jpeg);
+}
+.photo23 {
+	background-image: url(../images/i23.jpeg);
+}
+.photo24 {
+	
+	background-image: url(../images/i24.jpeg);
+}
+.photo26 {
+	
+	background-image: url(../images/i26.jpeg);
+}
+.photo27 {
+	
+	background-image: url(../images/i27.jpeg);
+}
+.photo29 {
+	
+	background-image: url(../images/i29.jpeg);
+}
+.photo28 {
+	
+	background-image: url(../images/i28.jpeg);
+}
+.photo16 {
+	
+	background-image: url(../images/i16.jpeg);
+}
+.photo30 {
+	
+	background-image: url(../images/i30.jpeg);
+}
+.photo31{
+	background-image: url(../images/i31.jpeg);
+}
+.photo12{
+	background-image: url(../images/i12.jpeg);
+}
+.photo13{
+	background-image: url(../images/i13.jpeg);
+}
+
+.photo14{
+	background-image: url(../images/i14.jpeg);
+}
+.photo15{
+	background-image: url(../images/i15.jpeg);
+}
+.photo17{
+	background-image: url(../images/i17.jpeg);
+}
+.photo18{
+	background-image: url(../images/i18.jpeg);
+}
+.photo19{
+	background-image: url(../images/i19.jpeg);
+}
+.photo21{
+	background-image: url(../images/i21.jpeg);
+}
+
+.img_link
+{
+display: contents;
+opacity: 0.6;
+transition: opacity 0.5s lnear, transform 0.3s ease-in; 
+
+}
+.img_link:hover {
+    opacity: 1;
+   
+
+}
+@media all and (max-width: 768px)
+{
+	.photo
+	{
+		max-height: initial;
+		max-width: initial;
+		width: 95vw;
+		height: calc(95vw / 16 * 9)
+	}
+}
+    .img_link{
+    	margin: 5px 0;
+    }
+@media all and (min-width: 800px)
+  {
+  	.photo:hover {
+	opacity: 1;
+    transform: scale(1.2) rotate(3deg); 
+    z-index: 10;
+    box-shadow: 13px 13px 5px 5px rgba(0, 0, 0, 0.5);
+}
+  }
